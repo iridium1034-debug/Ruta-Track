@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#0A326E" />
+      <stop offset="55%" stop-color="#051F48" />
+      <stop offset="100%" stop-color="#02122C" />
+    </radialGradient>
+    <linearGradient id="pinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00B4FF" />
+      <stop offset="100%" stop-color="#0088E0" />
+    </linearGradient>
+    <linearGradient id="tankGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="55%" stop-color="#E6F0FA" />
+      <stop offset="85%" stop-color="#8FB3D9" />
+      <stop offset="100%" stop-color="#0A2B5E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded App Icon Background -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+
+  <!-- Outer Cyan Map Pin Ring -->
+  <path
+    d="M256 54 C166 54 102 120 102 204 C102 269 152 325 256 382 C360 325 410 269 410 204 C410 120 346 54 256 54 Z"
+    fill="none"
+    stroke="url(#pinGrad)"
+    stroke-width="22"
+    stroke-linejoin="round"
+  />
+
+  <!-- Inner Pin Dark Backdrop -->
+  <path
+    d="M256 72 C178 72 120 130 120 204 C120 261 165 312 256 364 C347 312 392 261 392 204 C392 130 334 72 256 72 Z"
+    fill="#041A3D"
+  />
+
+  <!-- Curving Highway Road at Bottom of Pin -->
+  <path
+    d="M138 238 Q225 262 256 366 L328 318 Q265 255 150 232 Z"
+    fill="#031532"
+  />
+  <!-- Cyan Left Road Shoulder -->
+  <path
+    d="M132 238 Q195 266 226 346 L256 366 Q225 275 142 236 Z"
+    fill="#00A3FF"
+  />
+  <!-- White Right Road Shoulder Line -->
+  <path
+    d="M168 234 Q266 258 316 324 L330 314 Q276 252 175 232 Z"
+    fill="#FFFFFF"
+  />
+  <!-- Dashed Center Highway Stripes -->
+  <path
+    d="M172 245 L194 253 L188 259 L166 250 Z M208 262 L232 276 L223 283 L200 268 Z M245 289 L266 312 L254 319 L235 296 Z M274 326 L288 350 L273 356 L261 333 Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- Heavy Tanker Truck (Camión Cisterna) 3/4 View -->
+  <!-- Tanker Cylinder Body -->
+  <path
+    d="M144 152 C144 132 162 120 185 118 L272 104 C288 104 298 122 298 148 C298 175 286 196 270 198 L148 206 C140 202 140 172 144 152 Z"
+    fill="url(#tankGrad)"
+    stroke="#041B3E"
+    stroke-width="4"
+  />
+  <!-- Tanker Segment Rings -->
+  <path d="M182 119 C174 142 174 178 182 202" fill="none" stroke="#052350" stroke-width="4.5" />
+  <path d="M224 112 C215 138 215 176 224 199" fill="none" stroke="#052350" stroke-width="4.5" />
+
+  <!-- Truck Undercarriage & Chassis -->
+  <path d="M142 204 L366 232 L366 258 L142 225 Z" fill="#031634" />
+
+  <!-- Wheels (Rear Duals, Mid Axle, Front Steer) -->
+  <!-- Rear Axle 1 -->
+  <ellipse cx="155" cy="218" rx="9" ry="18" fill="#041A3D" stroke="#FFFFFF" stroke-width="3" />
+  <ellipse cx="174" cy="221" rx="9" ry="18" fill="#041A3D" stroke="#FFFFFF" stroke-width="3" />
+  <!-- Mid Axle -->
+  <ellipse cx="222" cy="228" rx="11" ry="21" fill="#041A3D" stroke="#FFFFFF" stroke-width="3.5" />
+  <ellipse cx="222" cy="228" rx="4" ry="9" fill="#FFFFFF" />
+  <!-- Front Drive/Steer Axle -->
+  <ellipse cx="272" cy="236" rx="14" ry="25" fill="#041A3D" stroke="#FFFFFF" stroke-width="4" />
+  <ellipse cx="272" cy="236" rx="6" ry="11" fill="#FFFFFF" />
+
+  <!-- Chrome Fuel Tank Between Axles -->
+  <rect x="236" y="210" width="24" height="28" rx="6" fill="#DCE8F5" stroke="#052350" stroke-width="3" />
+
+  <!-- Truck Cab (Globetrotter Style) -->
+  <path
+    d="M262 96 C262 84 276 78 302 78 L368 88 C384 91 394 102 397 120 L404 232 C404 246 394 256 378 258 L314 258 C296 256 288 246 288 228 L262 218 Z"
+    fill="#FFFFFF"
+    stroke="#041B3E"
+    stroke-width="5"
+    stroke-linejoin="round"
+  />
+
+  <!-- Cab Roof Visor -->
+  <path d="M306 92 L388 104 L391 116 L304 104 Z" fill="#041B3E" />
+
+  <!-- Windshield -->
+  <path
+    d="M306 112 L391 122 L394 164 L306 156 Z"
+    fill="#05224D"
+    stroke="#031634"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />
+  <!-- Windshield Reflection -->
+  <path d="M366 122 L390 125 L392 161 L352 158 Z" fill="#6396C9" opacity="0.55" />
+
+  <!-- Side Window & Mirror -->
+  <path d="M276 116 L296 114 L296 158 L276 154 Z" fill="#05224D" />
+  <rect x="266" y="118" width="9" height="34" rx="4" fill="#FFFFFF" stroke="#041B3E" stroke-width="2.5" />
+
+  <!-- Front Grille (Dark Navy Shield with Horizontal Chrome Slats) -->
+  <path
+    d="M316 172 L390 176 L382 244 L324 244 Z"
+    fill="#041B3E"
+    stroke="#041B3E"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />
+  <line x1="322" y1="186" x2="385" y2="189" stroke="#C5D8EC" stroke-width="3.5" stroke-linecap="round" />
+  <line x1="324" y1="200" x2="383" y2="203" stroke="#C5D8EC" stroke-width="3.5" stroke-linecap="round" />
+  <line x1="326" y1="214" x2="381" y2="216" stroke="#C5D8EC" stroke-width="3.5" stroke-linecap="round" />
+  <line x1="328" y1="228" x2="379" y2="230" stroke="#C5D8EC" stroke-width="3.5" stroke-linecap="round" />
+
+  <!-- Headlights -->
+  <path d="M298 214 L315 222 L316 240 L298 232 Z" fill="#E6F4FF" stroke="#041B3E" stroke-width="3" />
+  <path d="M386 238 L398 230 L398 244 L386 248 Z" fill="#E6F4FF" stroke="#041B3E" stroke-width="3" />
+
+  <!-- Typography: RutaTrack -->
+  <text x="256" y="438" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="800" font-size="76" letter-spacing="-1.5">
+    <tspan fill="#FFFFFF">Ruta</tspan><tspan fill="#00A8FF">Track</tspan>
+  </text>
+
+  <!-- Subtitle: CAMIONES | CISTERNAS | TRANSPORTE -->
+  <text x="256" y="474" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="600" font-size="18.5" fill="#FFFFFF" letter-spacing="3.5">
+    CAMIONES | CISTERNAS | TRANSPORTE
+  </text>
+</svg>

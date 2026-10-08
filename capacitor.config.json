@@ -1,0 +1,18 @@
+{
+  "appId": "com.rutatrack.controldevehiculos",
+  "appName": "Ruta Track",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "android": {
+    "backgroundColor": "#041B3E",
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true,
+    "buildOptions": {
+      "releaseType": "APK"
+    }
+  }
+}

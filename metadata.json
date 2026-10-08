@@ -1,0 +1,6 @@
+{
+  "name": "Ruta Track - Control de Vehículos",
+  "description": "Aplicación móvil instalable para registrar, consultar y administrar camiones, cisternas, bateas y ramplas con cámara, OCR/IA y almacenamiento local offline.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

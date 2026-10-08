@@ -1,0 +1,52 @@
+{
+  "packageId": "com.rutatrack.controldevehiculos",
+  "host": "ais-pre-trdhzqlsdooy2u6wram7ti-337261311210.us-west2.run.app",
+  "name": "Ruta Track - Control de Vehículos",
+  "launcherName": "RutaTrack",
+  "display": "standalone",
+  "themeColor": "#041B3E",
+  "navigationColor": "#041B3E",
+  "navigationColorDark": "#02122C",
+  "navigationDividerColor": "#08295C",
+  "navigationDividerColorDark": "#08295C",
+  "backgroundColor": "#041B3E",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://ais-pre-trdhzqlsdooy2u6wram7ti-337261311210.us-west2.run.app/pwa-512x512.png",
+  "maskableIconUrl": "https://ais-pre-trdhzqlsdooy2u6wram7ti-337261311210.us-west2.run.app/pwa-maskable-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./rutatrack-release-key.keystore",
+    "alias": "rutatrack-key-alias"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Buscar Vehículo",
+      "shortName": "Buscar",
+      "url": "/?action=search",
+      "chosenIconUrl": "https://ais-pre-trdhzqlsdooy2u6wram7ti-337261311210.us-west2.run.app/pwa-192x192.png"
+    },
+    {
+      "name": "Digitalizar Documento",
+      "shortName": "Digitalizar",
+      "url": "/?action=ocr",
+      "chosenIconUrl": "https://ais-pre-trdhzqlsdooy2u6wram7ti-337261311210.us-west2.run.app/pwa-192x192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://ais-pre-trdhzqlsdooy2u6wram7ti-337261311210.us-west2.run.app/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://ais-pre-trdhzqlsdooy2u6wram7ti-337261311210.us-west2.run.app/",
+  "minSdkVersion": 24,
+  "orientation": "portrait",
+  "fingerprints": []
+}
